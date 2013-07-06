@@ -5,7 +5,7 @@ configure your `vim` development environment as follows:
 
 ```sh
 cd $HOME
-git clone https://github.com/merwan/dotfiles-ec2.git ~/dotfiles
+git clone --recursive https://github.com/merwan/dotfiles-ec2.git ~/dotfiles
 ln -sb dotfiles/.vimrc .
 mv .vim .vim~
 ln -s dotfiles/.vim .
